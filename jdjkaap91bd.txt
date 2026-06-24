@@ -184,7 +184,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "s32819.cdn.ngenix.net",
+            "address": "s82093.cdn.ngenix.net",
             "port": 443,
             "users": [
               {
@@ -201,12 +201,13 @@
         "wsSettings": {
           "path": "/api/user",
           "headers": {
-            "Host": "s32819.cdn.ngenix.net"
-          }
+            "Host": "s82093.cdn.ngenix.net"
+          },
+          "heartbeatPeriod": 30
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "s32819.cdn.ngenix.net",
+          "serverName": "",
           "fingerprint": "chrome",
           "alpn": [
             "h3",
@@ -225,7 +226,7 @@
       "protocol": "blackhole"
     }
   ],
-  "remarks": "🇪🇪 LTE №0-1 | Обход глушилок (NEW)"
+  "remarks": "🇨🇿 LTE №0-2 | Обход глушилок (NEW)"
 }
 {
   "dns": {
